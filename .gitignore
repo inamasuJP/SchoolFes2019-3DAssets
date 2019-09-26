@@ -1,9 +1,9 @@
-*.blend
+# *.blend
 *.blend1
 *.blend2
 
-*.png
-*.jpg
-*.xcf
+# *.png
+# *.jpg
+# *.xcf
 
 *.meta
