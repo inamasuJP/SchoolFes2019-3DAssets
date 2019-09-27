@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# $ ln -s  Scripts/hooks/pre-push .git/hooks
+# $ ln Scripts/hooks/pre-push .git/hooks
 
 remote="$1"
 url="$2"
