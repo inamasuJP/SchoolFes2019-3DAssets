@@ -12,9 +12,9 @@ do
 	if [[ "${remote_ref##refs/heads/}" = "develop" ]]; then
 		#`git rev-parse --show-toplevel`/Scripts/convert.sh
 		git checkout master
-		git checkout develop '`git rev-parse --show-toplevel`/EyeTracking/*.fbx'
-        git checkout develop '`git rev-parse --show-toplevel`/GrassVR/*.fbx'
-        git checkout develop '`git rev-parse --show-toplevel`/EscapeVR/*.fbx'
+		git checkout develop `git rev-parse --show-toplevel`'/EyeTracking/*.fbx'
+        git checkout develop `git rev-parse --show-toplevel`'/GrassVR/*.fbx'
+        git checkout develop `git rev-parse --show-toplevel`'/EscapeVR/*.fbx'
 		git commit -m "[Auto commit] Add FBX from develop(rinadehi/3DAssets-All)"
 		git checkout develop
 		git push OnlyFBX master
