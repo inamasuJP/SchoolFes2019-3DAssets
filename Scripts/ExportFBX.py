@@ -57,6 +57,6 @@ def fbx_export_geometry(arg_filepath='./export.fbx'):
   return
 
 # 関数の実行例
+path = bpy.context.blend_data.filepath.rstrip(bpy.path.basename(bpy.context.blend_data.filepath)) + "../" +  bpy.path.basename(bpy.context.blend_data.filepath).split(".")[0] +".fbx"
 
-#print( bpy.path.basename(bpy.context.blend_data.filepath).split(".")[0] )
-fbx_export_geometry('../../' + bpy.path.basename(bpy.context.blend_data.filepath).split(".")[0] + '.fbx')
+fbx_export_geometry(path)
