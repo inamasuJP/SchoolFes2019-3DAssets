@@ -16,3 +16,5 @@ for raw in $(git log origin/develop..develop --stat | grep ".blend") ; do
 		blender --background ${raw} --python Scripts/ExportFBX.py
 	fi	
 done
+echo '[Messeage by convert.sh] git commit -am "Auto Generate FBX/render image"'
+git commit -am "Auto convert FBX and render image"
