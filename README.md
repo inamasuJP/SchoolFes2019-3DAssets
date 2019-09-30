@@ -29,6 +29,7 @@ git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
     │  CrescentMoonYellow.fbx : 三日月の3Dモデル   
     │  Joro.fbx : じょうろの3Dモデル
     │  kama-small.fbx : 小さなシックル型鎌の3Dモデル
+    │  MetalBucket.fbx : 金属バケツの3Dモデル
     │  sansui.fbx : 散水ホースの3Dモデル
     │  tawara.fbx : たわらの3Dモデル
     │
@@ -51,6 +52,9 @@ git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
 
 #### kama-small.fbx
 ![Joro.fbx](GrassVR/image/kama-small.png)
+
+#### MetalBucket.fbx
+![MetalBucket.fbx](GrassVR/image/MetalBucket.png)
 
 #### sansui.fbx
 ![sansui.fbx](GrassVR/image/sansui.png)
