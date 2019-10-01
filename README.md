@@ -32,6 +32,7 @@ git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
     │  MetalBucket.fbx : 金属バケツの3Dモデル
     │  sansui.fbx : 散水ホースの3Dモデル
     │  tawara.fbx : たわらの3Dモデル
+    │  UFO.fbx : UFOの3Dモデル
     │
     ├─blend : FBXエクスポート前のBlenderファイル置き場
     └─image : レンダリング結果の画像置き場
@@ -61,6 +62,9 @@ git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
 
 #### tawara.fbx
 ![Joro.fbx](GrassVR/image/tawara.png)
+
+#### UFO.fbx [テクスチャどうにかしたい]
+![UFO.fbx](GrassVR/image/UFO.png)
 
 
 ### アイトラッカー班
