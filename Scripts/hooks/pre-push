@@ -23,7 +23,7 @@ do
 
 		cd  `git rev-parse --show-toplevel`
 		cp -r GrassVR/*.fbx  ../Unity-GrassVR/GrassVR/Assets/3DAssets/
-		cp -r GrassVR/Textures/*  ../Unity-GrassVR/GrassVR/Assets/3DAssets/
+		cp -r GrassVR/Textures/*  ../Unity-GrassVR/GrassVR/Assets/3DAssets/Textures/
 
 		git checkout develop
 		git push OnlyFBX master
