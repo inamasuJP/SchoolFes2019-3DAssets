@@ -35,7 +35,8 @@ git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
     │  UFO.fbx : UFOの3Dモデル
     │
     ├─blend : FBXエクスポート前のBlenderファイル置き場
-    └─image : レンダリング結果の画像置き場
+    ├─image : レンダリング結果の画像置き場
+    └─Textures : テクスチャ置き場
 ```
 
 ## 3Dモデルのレンダリングイメージ
