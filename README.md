@@ -26,7 +26,8 @@ git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
 │   └─image : レンダリング結果の画像置き場
 └─GrassVR : 草刈りVR班用
     │  CrescentMoon.fbx : 三日月の3Dモデル[ボツ]
-    │  CrescentMoonYellow.fbx : 三日月の3Dモデル   
+    │  CrescentMoonYellow.fbx : 三日月の3Dモデル
+    │  DendenDaiko.fbx : でんでん太鼓の3Dモデル
     │  Joro.fbx : じょうろの3Dモデル
     │  kadomatsu.fbx : 門松の3Dモデル
     │  kama-small.fbx : 小さなシックル型鎌の3Dモデル
@@ -50,6 +51,9 @@ git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
 
 #### CrescentMoonYellow.fbx
 ![CrescentMoonYellow.fbx](GrassVR/image/CrescentMoonYellow.png)
+
+#### DendenDaiko.fbx
+![DendenDaiko.fbx](GrassVR/image/DendenDaiko.png)
 
 #### Joro.fbx
 ![Joro.fbx](GrassVR/image/Joro.png)
