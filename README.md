@@ -34,6 +34,7 @@ git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
     │  sansui.fbx : 散水ホースの3Dモデル
     │  tawara.fbx : たわらの3Dモデル
     │  UFO.fbx : UFOの3Dモデル
+    │  Wing.fbx : 羽根の3Dモデル
     │
     ├─blend : FBXエクスポート前のBlenderファイル置き場
     ├─image : レンダリング結果の画像置き場
@@ -70,6 +71,9 @@ git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
 
 #### UFO.fbx [テクスチャどうにかしたい]
 ![UFO.fbx](GrassVR/image/UFO.png)
+
+#### Wing.fbx
+![Wing.fbx](GrassVR/image/Wing.png)
 
 
 ### アイトラッカー班
