@@ -122,6 +122,8 @@ Blender 2.80 for Windows
 
 * 黄色月テクスチャ : パブリックドメインQ (https://publicdomainq.net/crescent-moon-0011474/)
 
+* 惑星テクスチャ : JHT's Planetary Pixel Emporium (http://planetpixelemporium.com/index.php)
+
 ---
 
 
