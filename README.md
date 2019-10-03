@@ -6,13 +6,32 @@
 
 ## 使い方
 
-このリポジトリは中間ファイルも含んでいるので、Unity読み込みの際は以下のようにFBXファイルのみのリポジトリからClone、Pullする。
+"GrassVR"、"EscapeVR"リポジトリにて、
 
 ```
-cd [Unityプロジェクト]/Assets/
-git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
+git fetch upstream
+git merge upstream 3dassets-develop
 ```
 
+とgitコマンドを入力することで、それぞれのUnityプロジェクトのAssets/3DAssets以下に3Dモデルが追加される。
+
+最新版に更新したい場合も上記のgitコマンドを入力する。
+
+## 各種禁止事項
+
+### developで作業をしている各種スクリプト・オブジェクト作成班の禁止事項
+
+3Dモデル作成担当者以外は
+
+```
+git checkout 3dassets-develop
+```
+
+をしてはいけない。原則3DAssets内のファイルはいじらない。
+
+### 全体での禁止事項
+
+3dassets-developに他のブランチをマージしてはいけない
 
 
 ## フォルダ構成
@@ -32,6 +51,7 @@ git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
     │  kadomatsu.fbx : 門松の3Dモデル
     │  kama-small.fbx : 小さなシックル型鎌の3Dモデル
     │  MetalBucket.fbx : 金属バケツの3Dモデル
+    │  Planet.fbx : 惑星の3Dモデル(マテリアルが保存できないのでUnity側で作業が必要)
     │  sansui.fbx : 散水ホースの3Dモデル
     │  tawara.fbx : たわらの3Dモデル
     │  UFO.fbx : UFOの3Dモデル
@@ -66,6 +86,9 @@ git clone https://git.calc.mie.jp/git/rinadehi/3DAssets-OnlyFBX.git
 
 #### MetalBucket.fbx
 ![MetalBucket.fbx](GrassVR/image/MetalBucket.png)
+
+#### Planet.fbx
+![Planet.fbx](GrassVR/image/Planet.png)
 
 #### sansui.fbx
 ![sansui.fbx](GrassVR/image/sansui.png)
