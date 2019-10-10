@@ -17,8 +17,8 @@ do
 		git checkout develop `git rev-parse --show-toplevel`'/EyeTracking/Textures/*'
         git checkout develop `git rev-parse --show-toplevel`'/GrassVR/*.fbx'
 		git checkout develop `git rev-parse --show-toplevel`'/GrassVR/Textures/*'
-        git checkout develop `git rev-parse --show-toplevel`'/EscapeVR/*.fbx'
-		git checkout develop `git rev-parse --show-toplevel`'/EscapeVR/Textures/*'
+        #git checkout develop `git rev-parse --show-toplevel`'/EscapeVR/*.fbx'
+		#git checkout develop `git rev-parse --show-toplevel`'/EscapeVR/Textures/*'
 		git commit -m "[Auto commit] Add FBX from develop(rinadehi/3DAssets-All)"
 
 		cd  `git rev-parse --show-toplevel`

@@ -124,6 +124,10 @@ Blender 2.80 for Windows
 
 * 惑星テクスチャ : JHT's Planetary Pixel Emporium (http://planetpixelemporium.com/index.php)
 
+* ツタテクスチャ : https://www.deviantart.com/travail-de-lame/art/Ivy-001-Clear-Cut-PNG-338389551
+
+* 縄テクスチャ : https://ja.pngtree.com/freepng/rope_2179225.html
+
 ---
 
 
