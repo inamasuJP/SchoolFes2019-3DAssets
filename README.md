@@ -56,6 +56,7 @@ git checkout 3dassets-develop
     │  tawara.fbx : たわらの3Dモデル
     │  UFO.fbx : UFOの3Dモデル
     │  Wing.fbx : 羽根の3Dモデル
+    │  WoodenSign.fbx : 木の看板の3Dモデル
     │
     ├─blend : FBXエクスポート前のBlenderファイル置き場
     ├─image : レンダリング結果の画像置き場
@@ -101,6 +102,9 @@ git checkout 3dassets-develop
 
 #### Wing.fbx
 ![Wing.fbx](GrassVR/image/Wing.png)
+
+#### WoodenSign.fbx
+![WoodenSign.fbx](GrassVR/image/WoodenSign.png)
 
 
 ### アイトラッカー班
