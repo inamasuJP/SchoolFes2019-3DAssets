@@ -1,37 +1,18 @@
-3Dアセットデータ置き場
+SchoolFes2019-3DAssets
 ====
 
-中間ファイル含む 草刈りVR・脱出VRプロジェクト用3Dアセットファイル
+2019年学園祭における、草刈りVR・脱出VRプロジェクト用3Dアセットファイル
 
+## 概要
 
-## 使い方
+2019年学園祭にて、サークルでVRゲーム開発を行った。
+その際に3DアセットをGit管理するためのリポジトリを作った。
 
-"GrassVR"、"EscapeVR"リポジトリにて、
+なお、本リポジトリ内のScripts/hooks/pre-push を使うことで、`git push`実行時に自動でFBXエクスポート・サムネイル画像生成を行うことができる。
 
-```
-git fetch upstream
-git merge upstream 3dassets-develop
-```
+- 自動エクスポートについての記事は : [Git Hookにより自動でBlenderのレンダリング・FBXエクスポートを行う | Qiita](https://qiita.com/inamasu/items/23105e805f039c9ed9df)
 
-とgitコマンドを入力することで、それぞれのUnityプロジェクトのAssets/3DAssets以下に3Dモデルが追加される。
-
-最新版に更新したい場合も上記のgitコマンドを入力する。
-
-## 各種禁止事項
-
-### developで作業をしている各種スクリプト・オブジェクト作成班の禁止事項
-
-3Dモデル作成担当者以外は
-
-```
-git checkout 3dassets-develop
-```
-
-をしてはいけない。原則3DAssets内のファイルはいじらない。
-
-### 全体での禁止事項
-
-3dassets-developに他のブランチをマージしてはいけない
+- VRゲーム開発全体のまとめ記事は : [サークルでVRコンテンツ開発をしてみた | Qiita](https://qiita.com/inamasu/items/979b32d2a34c6bca33ff)
 
 
 ## フォルダ構成
@@ -43,8 +24,8 @@ git checkout 3dassets-develop
 │   │
 │   ├─blend : FBXエクスポート前のBlenderファイル置き場
 │   └─image : レンダリング結果の画像置き場
+│ 
 └─GrassVR : 草刈りVR班用
-    │  CrescentMoon.fbx : 三日月の3Dモデル[ボツ]
     │  CrescentMoonYellow.fbx : 三日月の3Dモデル
     │  DendenDaiko.fbx : でんでん太鼓の3Dモデル
     │  Joro.fbx : じょうろの3Dモデル
@@ -54,7 +35,6 @@ git checkout 3dassets-develop
     │  Planet.fbx : 惑星の3Dモデル(マテリアルが保存できないのでUnity側で作業が必要)
     │  sansui.fbx : 散水ホースの3Dモデル
     │  tawara.fbx : たわらの3Dモデル
-    │  UFO.fbx : UFOの3Dモデル
     │  Wing.fbx : 羽根の3Dモデル
     │  WoodenSign.fbx : 木の看板の3Dモデル
     │
@@ -66,9 +46,6 @@ git checkout 3dassets-develop
 ## 3Dモデルのレンダリングイメージ
 
 ### 草刈り班
-
-#### CrescentMoon.fbx [ボツ]
-![CrescentMoon.fbx](GrassVR/image/CrescentMoon.png)
 
 #### CrescentMoonYellow.fbx
 ![CrescentMoonYellow.fbx](GrassVR/image/CrescentMoonYellow.png)
@@ -97,8 +74,6 @@ git checkout 3dassets-develop
 #### tawara.fbx
 ![Joro.fbx](GrassVR/image/tawara.png)
 
-#### UFO.fbx [テクスチャどうにかしたい]
-![UFO.fbx](GrassVR/image/UFO.png)
 
 #### Wing.fbx
 ![Wing.fbx](GrassVR/image/Wing.png)
@@ -132,14 +107,44 @@ Blender 2.80 for Windows
 
 * 縄テクスチャ : https://ja.pngtree.com/freepng/rope_2179225.html
 
+
+
 ---
 
+(以下の文章はチーム向け)
+
+## 使い方
+"GrassVR"、"EscapeVR"リポジトリにて、
+
+```
+git fetch upstream
+git merge upstream 3dassets-develop
+```
+
+とgitコマンドを入力することで、それぞれのUnityプロジェクトのAssets/3DAssets以下に3Dモデルが追加される。
+
+最新版に更新したい場合も上記のgitコマンドを入力する。
+
+## 各種禁止事項
+
+### developで作業をしている各種スクリプト・オブジェクト作成班の禁止事項
+
+3Dモデル作成担当者以外は
+
+```
+git checkout 3dassets-develop
+```
+
+をしてはいけない。原則3DAssets内のファイルはいじらない。
+
+### 全体での禁止事項
+
+3dassets-developに他のブランチをマージしてはいけない
+
+
+---
 
 ## 問い合わせ先
 
 モデルの作成依頼や修正依頼はDiscordで連絡ください。
 そして、Trelloでタスクを発行してください。
-
-Rinadehi
-* Discord ID : Rinadehi#5950
-* Twitter ID : https://twitter.com/Rinadehi_Mie
